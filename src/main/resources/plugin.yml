@@ -1,0 +1,19 @@
+name: MoreCommands
+version: '${version}'
+main: fr.mynosci.morecommands.MoreCommands
+api-version: '1.20'
+commands:
+  broadcast:
+    description: Broadcast a message to all players
+    permission: morecommands.broadcast
+    aliases:
+      - bc
+      - mbc
+      - mbroadcast
+  gamemode:
+    description: Change your gamemode
+    permission: morecommands.gamemode
+    aliases:
+      - gm
+      - mgm
+      - mgamemode
